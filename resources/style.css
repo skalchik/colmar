@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    width: 100%;
+}
+
+.bluebox {
+    height: 64px;
+    width: 16px;
+    background-color: aqua;
+}
