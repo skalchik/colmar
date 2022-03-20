@@ -1,12 +1,26 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.blue {
-    border-right: 16px solid blue;
+.logo {
+    margin-left: 24px;
+    height: 32px;
+
 }
 
-a {
-    padding: 8px 0
+.bluebox {
+    height: 64px;
+    width: 16px;
+    background-color: aquamarine;
 }
+
+
+.links {
+    display: inline-flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+    margin-right: 24px;
+}
+
