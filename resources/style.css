@@ -6,7 +6,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -27,5 +31,90 @@ header {
     flex-wrap: no-wrap;
     align-items: center;
     margin-right: 24px;
+}
+
+.learn {
+    background-color: lightgray;
+    display: flex;
+    
+}
+
+.readingimg {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+    float: left;
+}
+
+.learningcontainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.start {
+    padding: 8px 0;
+    background-color: darkgrey;
+    text-align: center;
+    width: 500px;
+}
+
+.practice {
+    display: flex;
+}
+
+.sweater{
+    margin: 32px 0;
+}
+
+.practicing {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 24px;
+}
+
+.aboutus {
+    border-left: 1px solid lightgray;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.orientation,
+.campus,
+.lecture {
+    display: flex;
+}
+ .orientation {
+     border-bottom: 3px solid lightgray;
+ }
+
+ .lecture {
+     background-color: lightgray;
+     margin-bottom: 32px;
+ }
+
+.orientation img{
+    width: 35%;
+    height: auto;
+    margin: 32px 16px 16px;
+}
+
+.campus img,
+.lecture img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+
+.aboutustext {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
