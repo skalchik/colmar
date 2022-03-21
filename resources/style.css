@@ -1,6 +1,7 @@
 body {
     padding-top: 0;
     margin-top: 0;
+    border: 1px solid grey;
 }
 header {
     display: flex;
@@ -185,10 +186,47 @@ h2 {
     margin: 24px 0 8px;
 }
 
-
-
 .fisma-container {
     width: 40%;
     display: flex;
     flex-direction: column;
 }
+
+.fisma-container img {
+    max-width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.fisma-container .fisma-text {
+    max-width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fisma-top,
+.now-and-then {
+    display: flex;
+}
+
+.fisma-top {
+    background-color: lightgrey;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0 32px 24px;
+    border-top: 1px solid lightgrey
+    
+}
+
+.terms-privacy {
+    display: flex;
+    margin-right: 10px;
+}
+.terms-privacy p {
+    padding: 5px;
+   
