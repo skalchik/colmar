@@ -6,6 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-height: 64px;
 }
 
 h2 {
@@ -39,7 +40,7 @@ h2 {
     
 }
 
-.readingimg {
+.reading-img {
     width: 60%;
     height: auto;
     margin: 32px 24px;
@@ -118,3 +119,76 @@ h2 {
     flex-direction: column;
 }
 
+.start-learning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightgray;
+    padding-bottom: 16px;
+}
+
+.start-learning h2 {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.courses-container {
+    margin: 0 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 16px;
+    padding-bottom: 24px;
+    max-width: 500px;
+
+}
+
+.course img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.course p {
+    margin: 8px 0 8px 16px ;
+    
+}
+
+.thesis-exhibit {
+    display: flex;
+    flex-direction: column;
+}
+.thesis-exhibit h1 {
+    text-align: center;
+    margin: 32px 0;
+}
+ .thesis-containers {
+     display: flex;
+     flex-direction: row;
+ }
+.video-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px 32px;
+}
+
+.video-container h3 {
+    margin: 24px 0 8px;
+}
+
+
+
+.fisma-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
