@@ -58,6 +58,7 @@ h2 {
 
  .learningcontainer {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
@@ -299,4 +300,17 @@ footer {
 }
 .terms-privacy p {
     padding: 5px;
-   
+}
+@media only screen and (min-width: 480px) {
+    .header-icons {
+        display: none
+    }
+}
+@media only screen and (max-width: 480px)  {
+    
+.logo,
+.links { 
+    display: none;
+
+}
+}
