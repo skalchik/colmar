@@ -4,7 +4,8 @@ body {
     border: 1px solid grey;
     font-family: 'Poppins', sans-serif;
     color: rgb(65, 65, 65);
-    
+    font-size: 16px;
+
 }
 header {
     display: flex;
@@ -55,19 +56,33 @@ h2 {
     float: left;
 }
 
-.learningcontainer {
+ .learningcontainer {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
 
+.learningcontainer h1 {
+    font-size: 3.5rem;
+    font-weight: extrabold 700;
+    width: 75%;
+}
+
+.learningcontainer h4 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 75%;
+}
+
+
 .start {
     padding: 8px 0;
     background-color: rgb(65, 65, 65);
     text-align: center;
-    width: 400px;
     color: white;
+    width: 80%;
+    
 }
 
 .practice {
@@ -107,7 +122,7 @@ h5 {
     font-size: larger;
 }
  .orientation {
-     border-bottom: 3px solid lightgray;
+     border-bottom: 4px double lightgray;
  }
 
  .lecture {
