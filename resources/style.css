@@ -61,6 +61,8 @@ h2 {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    margin-left: 24px;
+    padding-bottom: 5px;
 }
 
 .learningcontainer h1 {
@@ -71,8 +73,9 @@ h2 {
 
 .learningcontainer h4 {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     width: 75%;
+    margin-top: 0;
 }
 
 
@@ -82,6 +85,7 @@ h2 {
     text-align: center;
     color: white;
     width: 80%;
+    font-size: 1.5rem;
     
 }
 
@@ -100,6 +104,23 @@ h2 {
     margin: 0 24px;
 }
 
+.practicing span,
+.start-learning h2,
+.thesis-exhibit h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.quote,
+.video-container p {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.quoter {
+    font-weight: 300;
+}
+
 .aboutus {
     border-left: 1px solid lightgray;
     width: 40%;
@@ -109,7 +130,7 @@ h2 {
 }
 
 .aboutus a {
-    color: blue;
+    color: rgb(0, 60, 255);
 }
 
 .orientation,
@@ -120,6 +141,8 @@ h2 {
 
 h5 {
     font-size: larger;
+    margin-bottom: 0;
+    font-size: 1.5rem;
 }
  .orientation {
      border-bottom: 4px double lightgray;
@@ -189,9 +212,16 @@ h5 {
     margin-bottom: 16px;
 }
 
+.course h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 8px 0 8px 16px;
+}
+
 .course p {
-    margin: 8px 0 8px 16px ;
-    
+    margin: 8px 0 8px 16px;
+    color: grey;
+    font-weight: 400;
 }
 
 .thesis-exhibit {
@@ -227,6 +257,15 @@ h5 {
     max-width: 35%;
     height: auto;
     margin: 16px;
+}
+
+.fisma-text p {
+    color: grey;
+    font-size: 1.25rem;
+}
+
+.video-container h3 {
+    font-size: 2.5rem;
 }
 
 .fisma-container .fisma-text {
