@@ -301,16 +301,151 @@ footer {
 .terms-privacy p {
     padding: 5px;
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 720px) {
     .header-icons {
         display: none
     }
-}
-@media only screen and (max-width: 480px)  {
-    
-.logo,
-.links { 
-    display: none;
+    .orientation .mobile,
+    .lecture .mobile,
+    .campus .mobile {
+        display: none;
+    }
+    .courses-mobile {
+        display: hide;
+    }
+    .video-mobile {
+        display: none;
+    }
+
 
 }
+@media only screen and (max-width: 720px)  {
+    body {
+        font-size: 12px;
+    }
+    .logo,
+    .links { 
+        display: none;
+
+    }
+    .header-icons { 
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .learn {
+        flex-direction: column;
+    }
+
+    .learn img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .learningcontainer{
+        margin: 0;
+      
+    }
+    .learningcontainer h1 {
+        font-size: 2.5rem;
+        margin: 32px 0;
+        padding-left: 16px;
+    }
+
+    .learningcontainer h4 {
+        font-size: 1.5rem;
+        padding-left: 16px;
+    }
+
+    .start {
+        background-color: rgb(141, 140, 140);
+        align-self: center;
+        width: 90%;
+        margin: 24px 0 32px;
+    }
+    .practicing {
+        display: none;
+    }
+    .aboutus {
+        width: 100%;
+    }
+    .orientation {
+        border: none;
+    }
+    .lecture {
+        background-color: white;
+    }
+    .orientation,
+    .lecture,
+    .campus {
+        display: flex;
+        flex-direction: column;
+        padding: 0 16px;
+    }
+    .orientation .desktop,
+    .lecture .desktop,
+    .campus .desktop {
+        display: none;
+    }
+    .orientation .mobile,
+    .lecture .mobile,
+    .campus .mobile {
+        width: 100%;
+        margin: 0;
+        padding-bottom:  16px;
+    }
+    .orientation {
+        padding-top: 16px;
+    }
+    .lecture,
+    .campus {
+        padding-top: 64px;
+    }
+    .lecture {
+        padding-bottom: 32px;
+        margin: 0;
+    }
+    .aboutustext {
+        padding-left: 16px;
+    }
+    .aboutustext h5 {
+        margin-top: 0;
+    }
+    .courses-container {
+        display: none;
+    }
+    .start-learning {
+        background-color: white;
+        padding: 0 16px;
+    }
+    .courses-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .courses-mobile div {
+        background-color: lightgrey;
+        padding: 16px 0 24px 16px;
+        margin: 4px 0;
+    }
+    .thesis-containers {
+        display: none;
+    }
+    .thesis-exhibit h1 {
+        border-top: 1px solid lightgrey;
+        padding: 32px 0 16px;
+    }
+    .terms-privacy {
+        display: none;
+    }
+    .video-mobile {
+        margin-bottom: 24px;
+    }
+    .copyright {
+        margin: 16px 0 16px 24px;
+    }
+    footer {
+        border: none;
+    }
+
 }
