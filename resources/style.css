@@ -87,6 +87,7 @@ h2 {
     color: white;
     width: 80%;
     font-size: 1.5rem;
+    text-decoration: none;
     
 }
 
@@ -301,6 +302,8 @@ footer {
 .terms-privacy p {
     padding: 5px;
 }
+/*mobile styling*/
+
 @media only screen and (min-width: 720px) {
     .header-icons {
         display: none
@@ -311,7 +314,7 @@ footer {
         display: none;
     }
     .courses-mobile {
-        display: hide;
+        display: none;
     }
     .video-mobile {
         display: none;
@@ -407,9 +410,19 @@ footer {
     }
     .aboutustext {
         padding-left: 16px;
+        width: 100%;
     }
     .aboutustext h5 {
         margin-top: 0;
+        font-size: 2rem;
+    }
+    .aboutustext p {
+        font-size: 1.15rem;
+        width: 100%;
+        margin: 0:
+    }
+    .aboutustext a {
+        font-size: 1rem;
     }
     .courses-container {
         display: none;
@@ -427,6 +440,8 @@ footer {
         background-color: lightgrey;
         padding: 16px 0 24px 16px;
         margin: 4px 0;
+        font-size: 1.5rem;
+        font-weight: bold;
     }
     .thesis-containers {
         display: none;
@@ -442,10 +457,9 @@ footer {
         margin-bottom: 24px;
     }
     .copyright {
-        margin: 16px 0 16px 24px;
+        font-size: 1rem;
     }
     footer {
         border: none;
-    }
 
 }
